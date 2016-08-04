@@ -1,0 +1,7 @@
+https://www.reddit.com/r/dailyprogrammer/comments/pr265/2152012_challenge_7_intermediate/
+
+Write a program that draws a recursive image.
+For example, a Sierpinski triangle , a Barnsley fern , or a Mandelbrot set fractal  would be good drawings.
+Any recursive image will do, but try to make them look fun or interesting.
+Bonus points for adding a color scheme!
+Please post a link to a sample image produced by your program, and above all, be creative.
