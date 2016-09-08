@@ -2,7 +2,7 @@
 [DailyProgrammer Subreddit](https://www.reddit.com/r/dailyprogrammer/)
  | [List of Challenges](https://www.reddit.com/r/dailyprogrammer/wiki/challenges)
 
-#### Challenge #1
+### Challenge #1
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pih8x/easy_challenge_1/)
 > create a program that will ask the users name, age, and reddit username. have it tell them the information back, in the format: your name is (blank), you are (blank) years old, and your username is (blank) for extra credit, have the program log this information in a file to be accessed later.
@@ -15,7 +15,7 @@
 
 ---
 
-#### Challenge #2
+### Challenge #2
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pjbj8/easy_challenge_2/)
 > Hello, coders! An important part of programming is being able to apply your programs, so your challenge for today is to create a calculator application that has use in your life. It might be an interest calculator, or it might be something that you can use in the classroom. For example, if you were in physics class, you might want to make a F = M * A calc. EXTRA CREDIT: make the calculator have multiple functions! Not only should it be able to calculate F = M * A, but also A = F/M, and M = F/A!
@@ -28,7 +28,7 @@
 
 ---
 
-#### Challenge #3
+### Challenge #3
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pkw2m/2112012_challenge_3_easy/)
 > Welcome to cipher day! write a program that can encrypt texts with an alphabetical caesar cipher. This cipher can ignore numbers, symbols, and whitespace. for extra credit, add a "decrypt" function to your program!
@@ -41,7 +41,7 @@
 
 ---
 
-#### Challenge #4
+### Challenge #4
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pm6oj/2122012_challenge_4_easy/)
 > You're challenge for today is to create a random password generator! For extra credit, allow the user to specify the amount of passwords to generate. For even more extra credit, allow the user to specify the length of the strings he wants to generate!
@@ -54,7 +54,7 @@
 
 ---
 
-#### Challenge #5
+### Challenge #5
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pnhyn/2122012_challenge_5_easy/)
 > Your challenge for today is to create a program which is password protected, and wont open unless the correct user and password is given. For extra credit, have the user and password in a seperate .txt file. for even more extra credit, break into your own program :)
@@ -67,7 +67,7 @@
 
 ---
 
-#### Challenge #6
+### Challenge #6
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pp53w/2142012_challenge_6_easy/)
 > You're challenge for today is to create a program that can calculate pi accurately to at least 30 decimal places. Try not to cheat :)
@@ -80,7 +80,7 @@
 
 ---
 
-#### Challenge #7
+### Challenge #7
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pr2xr/2152012_challenge_7_easy/)
 > Write a program that can translate Morse code in the format of ...---... A space and a slash will be placed between words. ..- / --.- For bonus, add the capability of going from a string to Morse code. Super-bonus if your program can flash or beep the Morse. This is your Morse to translate: .... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--
@@ -93,7 +93,7 @@
 
 ---
 
-#### Challenge #8
+### Challenge #8
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pserp/2162012_challenge_8_easy/)
 > write a program that will print the song "99 bottles of beer on the wall". for extra credit, do not allow the program to print each loop on a new line.
@@ -106,7 +106,7 @@
 
 ---
 
-#### Challenge #9
+### Challenge #9
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pu1rf/2172012_challenge_9_easy/)
 > write a program that will allow the user to input digits, and arrange them in numerical order. for extra credit, have it also arrange strings in alphabetical order
@@ -119,33 +119,33 @@
 
 ---
 
-#### Challenge #10
+### Challenge #10
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pv98f/2182012_challenge_10_easy/)
 > The exercise today asks you to validate a telephone number, as if written on an input form. Telephone numbers can be written as ten digits, or with dashes, spaces, or dots between the three segments, or with the area code parenthesized; both the area code and any white space between segments are optional. Thus, all of the following are valid telephone numbers: 1234567890, 123-456-7890, 123.456.7890, (123)456-7890, (123) 456-7890 (note the white space following the area code), and 456-7890. The following are not valid telephone numbers: 123-45-6789, 123:4567890, and 123/456-7890. source: programmingpraxis.com
 
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/pv8zm/2182012_challenge_10_intermediate/)
-> On December 7, 2011, Neil deGrasse Tyson tweeted: Need a distraction today? Not only does 12+1=11+2, but the letters “twelve plus one” rearrange to give you “eleven plus two” Your task is to write a program that finds equations similar to Tyson’s that form anagrams both in their symbols and in their letters. source: programmingpraxis.com
+> On December 7, 2011, Neil deGrasse Tyson tweeted: Need a distraction today? Not only does 12+1=11+2, but the letters â€œtwelve plus oneâ€ rearrange to give you â€œeleven plus twoâ€ Your task is to write a program that finds equations similar to Tysonâ€™s that form anagrams both in their symbols and in their letters. source: programmingpraxis.com
 
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/pv92x/2182012_challenge_10_difficult/)
 > Your task is to implement the interactive game of hangman bonus point for making the game unique. be more creative!
 
 ---
 
-#### Challenge #11
+### Challenge #11
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pwons/2192012_challenge_11_easy/)
 > The program should take three arguments.  The first will be a day, the second will be month, and the third will be year.  Then, your program should compute the day of the week that date will fall on.
 
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/pwox3/2192012_challenge_11_intermediate/)
-> An “upside up” number is a number that reads the same when it is rotated 180°. For instance, 689 and 1961 are upside up numbers. Your task is to find the next upside up number greater than 1961, and to count the number of upside up numbers less than ten thousand. edit: since there is a confusion about 2 and 5, please consider them as "upside up" numbers for this problem. If you have already done without it, its ok. Sorry for the late reply. source: programmingpraxis.com
+> An â€œupside upâ€ number is a number that reads the same when it is rotated 180Â°. For instance, 689 and 1961 are upside up numbers. Your task is to find the next upside up number greater than 1961, and to count the number of upside up numbers less than ten thousand. edit: since there is a confusion about 2 and 5, please consider them as "upside up" numbers for this problem. If you have already done without it, its ok. Sorry for the late reply. source: programmingpraxis.com
 
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/pwpdz/2192012_challenge_11_difficult/)
 > Create a program which prints out a table with the month's calendar in it, when the month and year is given as input. Extra points for highlighting the current day and providing links to next and previous months. Happy coding :)
 
 ---
 
-#### Challenge #12
+### Challenge #12
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pxs2x/2202012_challenge_12_easy/)
 > Write a small program that can take a string: "hi!" and print all the possible permutations of the string: "hi!" "ih!" "!hi" "h!i" "i!h" etc... thanks to hewts for this challenge!
@@ -158,7 +158,7 @@
 
 ---
 
-#### Challenge #13
+### Challenge #13
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/pzo4w/2212012_challenge_13_easy/)
 > Find the number of the year for the given date. For example, january 1st would be 1, and december 31st is 365. for extra credit, allow it to calculate leap years, as well.
@@ -171,7 +171,7 @@
 
 ---
 
-#### Challenge #14
+### Challenge #14
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/q2v2k/2232012_challenge_14_easy/)
 > Input: list of elements and a block size k or some other variable of your choice Output: return the list of elements with every block of k elements reversed, starting from the beginning of the list. For instance, given the list 12, 24, 32, 44, 55, 66 and the block size 2, the result is 24, 12, 44, 32, 66, 55.
@@ -184,7 +184,7 @@
 
 ---
 
-#### Challenge #15
+### Challenge #15
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/q4c34/2242012_challenge_15_easy/)
 > Write a program to left or right justify a text file
@@ -197,10 +197,10 @@
 
 ---
 
-#### Challenge #16
+### Challenge #16
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/q8aom/2272012_challenge_16_easy/)
-> Hi folks! We are in the midst of discussing how this subreddit will go about but for now how about we just concentrate on challenges! Write a function that takes two strings and removes from the first string any character that appears in the second string. For instance, if the first string is “Daily Programmer” and the second string is “aeiou ” the result is “DlyPrgrmmr”. note: the second string has [space] so the space between "Daily Programmer" is removed edit: if anyone has any suggestions for the subreddit, kindly post it in the feedback thread posted a day before. It will be easier to assess. Thank you.
+> Hi folks! We are in the midst of discussing how this subreddit will go about but for now how about we just concentrate on challenges! Write a function that takes two strings and removes from the first string any character that appears in the second string. For instance, if the first string is â€œDaily Programmerâ€ and the second string is â€œaeiou â€ the result is â€œDlyPrgrmmrâ€. note: the second string has [space] so the space between "Daily Programmer" is removed edit: if anyone has any suggestions for the subreddit, kindly post it in the feedback thread posted a day before. It will be easier to assess. Thank you.
 
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/q8fqk/2272012_challenge_16_intermediate/)
 > Your task is to write a program that simulates a game of craps. Use the program to calculate various features of the game: for example, What is the most common roll or average rolls in a game or maximum roll? What is the average winning percentage? Or you can make your own questions. edit: if anyone has any suggestions for the subreddit, kindly post it in the feedback thread posted a day before. It will be easier to assess. Thank you.
@@ -210,7 +210,7 @@
 
 ---
 
-#### Challenge #17
+### Challenge #17
 
 * [easy](https://www.reddit.com/r/dailyprogrammer/comments/qheeu/342012_challenge_17_easy/)
 > write an application which will print a triangle of stars of user-specified height, with each line having twice as many stars as the last. sample output: @ @@ @@@@ hint: in many languages, the "+" sign concatenates strings. bonus features: print the triangle in reverse, print the triangle right justified
@@ -220,4 +220,17 @@
 
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qhe2i/342012_challenge_17_difficult/)
 > build a tic tac toe game with opponent AI bonus points for cooler AI implementations (depth/breadth first search, neural network, etc)
+
+---
+
+### Challenge #18
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qit0h/352012_challenge_18_easy/)
+> Often times in commercials, phone numbers contain letters so that they're easy to remember (e.g. 1-800-VERIZON). Write a program that will convert a phone number that contains letters into a phone number with only numbers and the appropriate dash. Click here to learn more about the telephone keypad. Example Execution: Input: 1-800-COMCAST Output: 1-800-266-2278
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qivpg/352012_challenge_18_intermediate/)
+> Screen scraping involves interacting with the terminal display of a currently running program. There are commercial screen scraping applications available for mainframe programs that provide a web interface on top of a dumb terminal program. Write a program that will read the following from a text file to simulate the dumb terminal program. Each line represents a prompt to the user (always ends with a colon). Input constraints may be available for prompts. If they are, then they will always be surrounded in parentheses. The accepted input values will always be separated by a comma, and the value that is actually counted will be surrounded in square brackets. Once you've parsed the text file, convert the data into an HTML form output file. If the prompt did not have any input constraints, then the input type is just a text. If the prompt contained input constraints and there are less than 5 options, then the input type are radio buttons. If there are 5 or more possible input values, then the input type is a dropdown. Example: Input File Name: Gender ([M]ale, [F]emale): Position ([C]ashier, [D]eli Clerk, [M]anager, [P]roduce Clerk, [S]tock Person): Output File (HTML) <html> <body> <form> Name: <input type="text" name="name"/> <br/> Gender: <input type="radio" name="gender" value="m"/> Male <input type="radio" name="gender" value="f"/> Female <br/> Position: <select name="position"> <option value="c">Cashier</option> <option value="d">Deli Clerk</option> <option value="m">Manager</option> <option value="p">Produce Clerk</option> <option value="s">Stock Person</option> </select> <br/> <input type="submit" value="Submit"/> </form> </body> </html>
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qit4p/352012_challenge_18_difficult/) (incomplete)
+> Write a program that draws a square spiral. You can print out this spiral in ASCII text, but using a graphics library would produce a more pleasant output. Bonus: Now draw a normal spiral. Some samples of spirals can be found here.
 

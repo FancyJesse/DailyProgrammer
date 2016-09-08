@@ -1,0 +1,4 @@
+https://www.reddit.com/r/dailyprogrammer/comments/qit4p/352012_challenge_18_difficult/
+
+Write a program that draws a square spiral. You can print out this spiral in ASCII text, but using a graphics library would produce a more pleasant output.
+Bonus: Now draw a normal spiral. Some samples of spirals can be found here.
