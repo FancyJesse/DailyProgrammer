@@ -1,11 +1,13 @@
 package organizer;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -17,7 +19,7 @@ import java.util.Comparator;
  * 
  */
 
-public class ReadMe {
+public class ReadMeGenerator {
 	private static final String README_MD = "./README.md";
 	private static final String CHALLENGES_PATH = "./src";
 	private static final String CHALLENGE_TXT = "Challenge.txt";
@@ -52,7 +54,7 @@ public class ReadMe {
 
 		public String dump() {
 			StringBuilder sb = new StringBuilder();
-			String challengeStr = ("#### Challenge #" + this.challengeNum);
+			String challengeStr = ("### Challenge #" + this.challengeNum);
 			System.out.println(challengeStr + "\n");
 			sb.append(challengeStr + "\n\n");
 			for (int i = 0; i < this.difficulties.size(); i++) {
@@ -169,20 +171,20 @@ public class ReadMe {
 	}
 
 	private static void createMD(ArrayList<Challenge> challenges) {
-		final String title = "# DailyProgrammer\n[DailyProgrammer Subreddit](https://www.reddit.com/r/dailyprogrammer/)\n | [List of Challenges](https://www.reddit.com/r/dailyprogrammer/wiki/challenges)\n";
+		final String title = "# DailyProgrammer\n[DailyProgrammer Subreddit](https://www.reddit.com/r/dailyprogrammer/)\n | [List of Challenges](https://www.reddit.com/r/dailyprogrammer/wiki/challenges)\n\n";
 
 		try {
-			PrintWriter pw = new PrintWriter(README_MD);
+			Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(README_MD), "UTF-8"));
 
 			System.out.println(title);
-			pw.println(title);
+			out.write(title);
 			for (int i = 0; i < challenges.size(); i++) {
-				pw.print(challenges.get(i).dump());
+				out.write(challenges.get(i).dump());
 				if (i != challenges.size() - 1)
-					pw.println("---\n");
+					out.write("---\n\n");
 			}
-			pw.close();
-		} catch (FileNotFoundException e) {
+			out.close();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
