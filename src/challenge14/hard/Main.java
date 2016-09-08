@@ -8,15 +8,17 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+/* 
+ * INCOMPLETE
+ * 
+ * Multi-Threading not necessary, completes almost instantly with only 1M
+ * elements. Possible solution could be to split list into different list
+ * (by thread) and implement merge sort between all lists and slowly
+ * combine. Still impractical.
+ * 
+ */
 
-	/*
-	 * Multi-Threading not necessary, completes almost instantly with only 1M
-	 * elements. Possible solution could be to split list into different list
-	 * (by thread) and implement merge sort between all lists and slowly
-	 * combine. Still impractical.
-	 * 
-	 */
+public class Main {
 
 	// private static int getInput(String prompt) {
 	// while (true) {

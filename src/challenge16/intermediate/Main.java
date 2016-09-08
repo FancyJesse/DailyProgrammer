@@ -7,13 +7,13 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+/*
+ * Disclaimer: I never played Craps. Vaguely understand the rules. This
+ * implementation of Craps may contain errors.
+ * 
+ */
 
-	/*
-	 * Disclaimer: I never played Craps. Vaguely understand the rules. This
-	 * implementation of Craps may contain errors.
-	 * 
-	 */
+public class Main {
 
 	private static class Craps {
 		private final List<Integer> winning = Arrays.asList(7, 11);

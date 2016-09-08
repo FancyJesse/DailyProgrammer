@@ -1,11 +1,13 @@
 package challenge16.hard;
 
-public class Main {
+/*
+ * INCOMPLETE
+ * 
+ * Completed in challenge14.intermediate?
+ * 
+ */
 
-	/*
-	 * Completed in challenge14.intermediate?
-	 * 
-	 */
+public class Main {
 
 	public static void main(String[] args) {
 
