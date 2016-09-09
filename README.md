@@ -234,3 +234,16 @@
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qit4p/352012_challenge_18_difficult/) (incomplete)
 > Write a program that draws a square spiral. You can print out this spiral in ASCII text, but using a graphics library would produce a more pleasant output. Bonus: Now draw a normal spiral. Some samples of spirals can be found here.
 
+---
+
+### Challenge #19
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qlwrc/372012_challenge_19_easy/)
+> Challenge #19 will use The Adventures of Sherlock Holmes from Project Gutenberg. Write a program that counts the number of alphanumeric characters there are in The Adventures of Sherlock Holmes. Exclude the Project Gutenberg header and footer, book title, story titles, and chapters. Post your code and the alphanumeric character count.
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qlwys/372012_challenge_19_intermediate/)
+> Challenge #19 will use The Adventures of Sherlock Holmes from Project Gutenberg. The Adventures of Sherlock Holmes is composed of 12 stories. Write a program that counts the number of words in each story. Then, print out the story titles ordered by its word count in descending order followed by how many words each story contains. Exclude the Project Gutenberg header and footer, book title, story titles, and chapters.
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qlxhh/372012_challenge_19_difficult/) (incomplete)
+> Challenge #19 will use The Adventures of Sherlock Holmes from Project Gutenberg. Write a program that will build and output a word index for The Adventures of Sherlock Holmes. Assume one page contains 40 lines of text as formatted from Project Gutenberg's site. There are common words like "the", "a", "it" that will probably appear on almost every page, so do not display words that occur more than 100 times. Example Output: the word "abhorrent" appears once on page 1, and the word "medical" appears on multiple pages, so the output for this word would look like: abhorrent: 1 medical: 34, 97, 98, 130, 160 Exclude the Project Gutenberg header and footer, book title, story titles, and chapters.
+
