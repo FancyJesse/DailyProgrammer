@@ -9,13 +9,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/*
- * INCOMPLETE
- * 
- * Work in progress
- * 
- */
-
 public class Main {
 	private static final String bookUrl = "http://www.gutenberg.org/cache/epub/1661/pg1661.txt";
 	private static List<String> chapters = Arrays.asList("I.", "A Scandal in Bohemia", "II.", "The Red-headed League",
@@ -67,10 +60,14 @@ public class Main {
 	}
 
 	private static class Page {
-		private ArrayList<Word> words;
+		private ArrayList<Word> wordList;
 
 		public Page() {
-			this.words = new ArrayList<>();
+			this.wordList = new ArrayList<>();
+		}
+
+		public ArrayList<Word> getWordList() {
+			return new ArrayList<>(this.wordList);
 		}
 
 		public void addLine(String line) {
@@ -78,75 +75,106 @@ public class Main {
 				word = word.trim();
 				if (word.isEmpty())
 					continue;
-				int index = this.words.indexOf(word);
+				int index = indexOfWord(this.wordList, word);
 				if (index > -1) {
-					this.words.get(index).wordFound();
+					this.wordList.get(index).incCnt();
 				} else
-					this.words.add(new Word(word));
+					this.wordList.add(new Word(word));
 			}
 		}
 
 		public void dump() {
+			Collections.sort(this.wordList, WordComparator);
+			Collections.reverse(this.wordList);
 
-			// for (int i = words.size() - 1; i >= 0; i--)
-			// if (words.get(i).getCnt() > 100)
-			// words.remove(i);
-
-			Collections.sort(words, new Comparator<Word>() {
-				@Override
-				public int compare(Word o1, Word o2) {
-					return o1.getWord().compareTo(o2.getWord());
-				}
-			});
-
-			for (Word word : this.words) {
+			for (Word word : this.wordList) {
 				word.dump();
 			}
 		}
+	}
 
-		private class Word {
-			private String word;
-			private int cnt;
+	private static class Word {
+		private String word;
+		private int cnt;
 
-			public Word(String word) {
-				this.word = word;
-				this.cnt = 1;
+		public Word(String word) {
+			this.word = word;
+			this.cnt = 1;
+		}
+
+		@Override
+		public boolean equals(Object o) {
+			if (o instanceof Word)
+				return ((Word) o).getWord().equals(this.getWord());
+			return false;
+		}
+
+		public String getWord() {
+			return this.word;
+		}
+
+		public int getCnt() {
+			return this.cnt;
+		}
+
+		public void incCnt(int c) {
+			this.cnt += c;
+		}
+
+		public void incCnt() {
+			this.cnt++;
+		}
+
+		public void dump() {
+			System.out.println(this.word + '\t' + this.cnt);
+		}
+	}
+
+	private static Comparator<Word> WordComparator = new Comparator<Word>() {
+		@Override
+		public int compare(Word o1, Word o2) {
+			int result = Integer.compare(o1.getCnt(), o2.getCnt());
+			if (result != 0)
+				return result;
+			else
+				return o1.getWord().compareTo(o2.getWord());
+		}
+	};
+
+	private static int indexOfWord(List<Word> wordList, String word) {
+		for (int index = 0; index < wordList.size(); index++) {
+			if (word.equals(wordList.get(index).getWord()))
+				return index;
+		}
+		return -1;
+	}
+
+	private static void dumpWords() {
+		ArrayList<Word> allWords = new ArrayList<>();
+		for (Page page : pages) {
+			for (Word word : page.getWordList()) {
+				int index = allWords.indexOf(word);
+				if (index == -1)
+					allWords.add(word);
+				else
+					allWords.get(index).incCnt(word.getCnt());
 			}
+		}
 
-			@Override
-			public boolean equals(Object o) {
-				if (o instanceof Word)
-					return ((Word) o).getWord().equals(this.getWord());
-				if (o instanceof String)
-					return o.equals(this.getWord());
-				return false;
-			}
+		Collections.sort(allWords, WordComparator);
+		Collections.reverse(allWords);
 
-			@Override
-			public int hashCode() {
-				return this.getWord().hashCode();
+		for (Word word : allWords) {
+			if (word.getCnt() > 100)
+				continue;
+			System.out.print(word.getWord() + "[" + word.getCnt() + "]: ");
+			for (int page = 0; page < pages.size(); page++) {
+				int index = indexOfWord(pages.get(page).getWordList(), word.getWord());
+				if (index > -1) {
+					System.out.print(page + "[" + pages.get(page).getWordList().get(index).getCnt() + "]" + " ");
+				}
 			}
-
-			@Override
-			public String toString() {
-				return this.word;
-			}
-
-			public String getWord() {
-				return this.word;
-			}
-
-			public int getCnt() {
-				return this.cnt;
-			}
-
-			public void wordFound() {
-				this.cnt++;
-			}
-
-			public void dump() {
-				System.out.println(this.word + '\t' + this.cnt);
-			}
+			System.out.println();
 		}
 	}
 
@@ -156,10 +184,14 @@ public class Main {
 
 		countWords();
 
+		// dump pages separately
 		for (int i = 0; i < pages.size(); i++) {
 			System.out.println("\nPage " + (i + 1));
 			pages.get(i).dump();
 		}
+
+		dumpWords();
+
 	}
 
 }
