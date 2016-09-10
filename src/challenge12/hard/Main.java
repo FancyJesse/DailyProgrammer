@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import sun.audio.AudioPlayer;
 import sun.audio.AudioStream;
 
+@SuppressWarnings("restriction")
 public class Main {
 
 	private static String getInput(String prompt) {
