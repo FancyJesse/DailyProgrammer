@@ -1,7 +1,6 @@
 package challenge10.hard;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,8 +12,15 @@ public class Main {
 			try {
 				System.out.print(prompt + "\n> ");
 				BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-				return br.readLine().toUpperCase();
-			} catch (NumberFormatException | IOException e) {
+				String word = br.readLine().toUpperCase().trim();
+
+				if (word.replaceAll("[^A-Z]", "").length() > 2)
+					return word;
+				else
+					System.out.println("Secret Word Is Too Short");
+
+			} catch (Exception e) {
+				System.out.println("Invalid Secret Word");
 			}
 		}
 	}
@@ -31,15 +37,19 @@ public class Main {
 			this.wrongLetters = new ArrayList<>();
 			this.gameOver = false;
 
-			for (int i = 0; i < keyArray.length; i++)
-				keyArray[i] = '_';
+			for (int i = 0; i < keyArray.length; i++) {
+				if (Character.isAlphabetic(keyArray[i]))
+					keyArray[i] = '_';
+			}
 
 			System.out.println("GAME START");
+			showMan();
+
 			char guess;
 			boolean contains;
 			while (!gameOver) {
 				contains = false;
-				guess = getChar("Guess a Letter:");
+				guess = getChar("\n\nGuess a Letter:");
 				for (int i = 0; i < key.length(); i++) {
 					if (key.charAt(i) == guess) {
 						keyArray[i] = guess;
@@ -79,7 +89,7 @@ public class Main {
 							return c;
 						}
 					}
-				} catch (IOException e) {
+				} catch (Exception e) {
 				}
 				System.out.println("That is Not a Valid Character. Try Again.");
 			}
