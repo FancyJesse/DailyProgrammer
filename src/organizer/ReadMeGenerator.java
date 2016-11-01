@@ -22,7 +22,7 @@ import java.util.Comparator;
 public class ReadMeGenerator {
 	private static final String README_MD = "./README.md";
 	private static final String CHALLENGES_PATH = "./src";
-	private static final String CHALLENGE_TXT = "Challenge.txt";
+	private static final String CHALLENGE_TXT = "challenge.txt";
 	private static final String MAIN_JAVA = "Main.java";
 
 	private static class Challenge extends File {
