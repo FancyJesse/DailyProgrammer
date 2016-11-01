@@ -247,3 +247,16 @@
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qlxhh/372012_challenge_19_difficult/)
 > Challenge #19 will use The Adventures of Sherlock Holmes from Project Gutenberg. Write a program that will build and output a word index for The Adventures of Sherlock Holmes. Assume one page contains 40 lines of text as formatted from Project Gutenberg's site. There are common words like "the", "a", "it" that will probably appear on almost every page, so do not display words that occur more than 100 times. Example Output: the word "abhorrent" appears once on page 1, and the word "medical" appears on multiple pages, so the output for this word would look like: abhorrent: 1 medical: 34, 97, 98, 130, 160 Exclude the Project Gutenberg header and footer, book title, story titles, and chapters.
 
+---
+
+### Challenge #20
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qnkro/382012_challenge_20_easy/) (incomplete)
+> create a program that will find all prime numbers below 2000
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qnkpp/382012_challenge_20_intermediate/) (incomplete)
+> create a program that will take user input and tell them their age in months, days, hours, and minutes sample output: how old are you?...
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qnl1d/382012_challenge_20_difficult/) (incomplete)
+> create a program that will remind you to stop procrastinating every two hours with a pop up message! :) This program has the potential of helping...
+
