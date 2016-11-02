@@ -124,6 +124,12 @@ public class ChallengeGenerator {
 
 		public void setDescription(String description) {
 			this.description = description.trim();
+
+			// only short description is extracted
+			if (this.description.endsWith("...")) {
+				this.description += " [See Challenge Thread For Full Description]";
+			}
+
 		}
 
 		public void dump() {
