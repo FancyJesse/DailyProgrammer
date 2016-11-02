@@ -251,12 +251,12 @@
 
 ### Challenge #20
 
-* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qnkro/382012_challenge_20_easy/) (incomplete)
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qnkro/382012_challenge_20_easy/)
 > create a program that will find all prime numbers below 2000
 
-* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qnkpp/382012_challenge_20_intermediate/) (incomplete)
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qnkpp/382012_challenge_20_intermediate/)
 > create a program that will take user input and tell them their age in months, days, hours, and minutes sample output: how old are you?...
 
-* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qnl1d/382012_challenge_20_difficult/) (incomplete)
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qnl1d/382012_challenge_20_difficult/)
 > create a program that will remind you to stop procrastinating every two hours with a pop up message! :) This program has the potential of helping...
 
