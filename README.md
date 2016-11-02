@@ -255,8 +255,21 @@
 > create a program that will find all prime numbers below 2000
 
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qnkpp/382012_challenge_20_intermediate/)
-> create a program that will take user input and tell them their age in months, days, hours, and minutes sample output: how old are you?...
+> create a program that will take user input and tell them their age in months, days, hours, and minutes sample output: how old are you? 18 months : 216, days : 6480, hours : 155520, and minutes : 388800
 
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qnl1d/382012_challenge_20_difficult/)
-> create a program that will remind you to stop procrastinating every two hours with a pop up message! :) This program has the potential of helping...
+> create a program that will remind you to stop procrastinating every two hours with a pop up message! :) This program has the potential of helping many people :D
+
+---
+
+### Challenge #21
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qp3ub/392012_challenge_21_easy/) (incomplete)
+> Input: a number Output : the next higher number that uses the same set of digits.
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qp407/392012_challenge_21_intermediate/) (incomplete)
+> This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n . This algorithm is a... [See Challenge Thread For Full Description]
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qp4jv/392012_challenge_21_difficult/) (incomplete)
+> We'd like to write a list of people, ordered so that no one appears in the list before anyone he or she is less smart than. The input will be a... [See Challenge Thread For Full Description]
 
