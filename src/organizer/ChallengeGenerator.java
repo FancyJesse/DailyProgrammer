@@ -153,7 +153,19 @@ public class ChallengeGenerator {
 
 				this.description = this.description.replace(". ", ".\n");
 				this.description = this.description.replace("\n\n", "\n");
-				this.description += "\n[See Challenge Thread For Full Description]";
+
+				System.out.println(this.description);
+				switch (getInput("Is This The Full Description? [Y/N]")) {
+				case "y":
+				case "Y":
+					break;
+				case "n":
+				case "N":
+					this.description += "\n[See Challenge Thread For Full Description]";
+					break;
+				default:
+					System.out.println("Invalid Response.");
+				}
 
 			}
 
