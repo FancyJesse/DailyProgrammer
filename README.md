@@ -268,8 +268,8 @@
 > Input: a number Output : the next higher number that uses the same set of digits.
 
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qp407/392012_challenge_21_intermediate/) (incomplete)
-> This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n . This algorithm is a... [See Challenge Thread For Full Description]
+> This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n . This algorithm is a critical algorithm for many image compression and image processing applications, and it is relatively simple both recursively and iteratively. [See Challenge Thread For Full Description]
 
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qp4jv/392012_challenge_21_difficult/) (incomplete)
-> We'd like to write a list of people, ordered so that no one appears in the list before anyone he or she is less smart than. The input will be a... [See Challenge Thread For Full Description]
+> We'd like to write a list of people, ordered so that no one appears in the list before anyone he or she is less smart than. [See Challenge Thread For Full Description]
 

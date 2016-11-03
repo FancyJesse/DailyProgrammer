@@ -31,6 +31,13 @@ public class ChallengeGenerator {
 
 		public boolean readChallengeURL() {
 
+			/*
+			 * Attempted JSON parser version but removed - Do not want external
+			 * libraries included in project - Some challenge formats do not
+			 * work with README.md - If challenge is truncated, ask for better
+			 * description to be added. (Kind of defeats the purpose, but it's
+			 * something)
+			 */
 			try {
 
 				URLConnection connection = (new URL(this.url)).openConnection();
@@ -123,10 +130,27 @@ public class ChallengeGenerator {
 		}
 
 		public void setDescription(String description) {
-			this.description = description.trim();
+			description = description.trim();
 
 			// only short description is extracted
-			if (this.description.endsWith("...")) {
+			if (description.endsWith("...")) {
+				System.out.println("Description Found: " + description);
+
+				while (this.description == null) {
+					switch (getInput("Override Description? [Y/N]")) {
+					case "y":
+					case "Y":
+						this.description = getInput("Description:").trim();
+						break;
+					case "n":
+					case "N":
+						this.description = description;
+						break;
+					default:
+						System.out.println("Invalid Response.");
+					}
+				}
+
 				this.description += " [See Challenge Thread For Full Description]";
 			}
 

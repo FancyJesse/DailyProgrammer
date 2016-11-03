@@ -1,3 +1,3 @@
 https://www.reddit.com/r/dailyprogrammer/comments/qp407/392012_challenge_21_intermediate/
 
-This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n . This algorithm is a... [See Challenge Thread For Full Description]
+This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n . This algorithm is a critical algorithm for many image compression and image processing applications, and it is relatively simple both recursively and iteratively. [See Challenge Thread For Full Description]
