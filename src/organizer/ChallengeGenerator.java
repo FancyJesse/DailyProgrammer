@@ -130,7 +130,7 @@ public class ChallengeGenerator {
 		}
 
 		public void setDescription(String description) {
-			description = description.trim();
+			description = description.replace(". ", ". \n").trim();
 
 			// only short description is extracted
 			if (description.endsWith("...")) {
@@ -151,7 +151,10 @@ public class ChallengeGenerator {
 					}
 				}
 
-				this.description += " [See Challenge Thread For Full Description]";
+				this.description = this.description.replace(". ", ". \n");
+				this.description = this.description.replace("\n\n", "\n");
+				this.description += "\n[See Challenge Thread For Full Description]";
+
 			}
 
 		}
