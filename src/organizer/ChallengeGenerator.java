@@ -151,7 +151,7 @@ public class ChallengeGenerator {
 					}
 				}
 
-				this.description = this.description.replace(". ", ". \n");
+				this.description = this.description.replace(". ", ".\n");
 				this.description = this.description.replace("\n\n", "\n");
 				this.description += "\n[See Challenge Thread For Full Description]";
 
