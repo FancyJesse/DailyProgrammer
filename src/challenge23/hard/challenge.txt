@@ -1,0 +1,5 @@
+https://www.reddit.com/r/dailyprogrammer/comments/qum19/3132012_challenge_23_difficult/
+
+Sort a given set of strings based on a unique collating sequence for each position in a string.
+Given N collating sequences, to sort strings of length greater than N, sequence i mod N is used at character position i.
+[See Challenge Thread For Full Description]

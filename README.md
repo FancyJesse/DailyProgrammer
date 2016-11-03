@@ -264,12 +264,38 @@
 
 ### Challenge #21
 
-* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qp3ub/392012_challenge_21_easy/) (incomplete)
-> Input: a number Output : the next higher number that uses the same set of digits.
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qp3ub/392012_challenge_21_easy/)
+> Input: a number  Output: the next higher number that uses the same set of digits.
 
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qp407/392012_challenge_21_intermediate/) (incomplete)
-> This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n . This algorithm is a critical algorithm for many image compression and image processing applications, and it is relatively simple both recursively and iteratively. [See Challenge Thread For Full Description]
+> This idea is to implement the [haar wavelet](http://en.wikipedia.org/wiki/Haar_wavelet) transform on an array of length 2^n. This algorithm is a critical algorithm for many image compression and image processing applications, and it is relatively simple both recursively and iteratively.  The solution should take in as input an array of floating-point values, and return an array of floating point values that in some sense implements the haar wavelet transform. [See Challenge Thread For Full Description]
 
-* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qp4jv/392012_challenge_21_difficult/) (incomplete)
-> We'd like to write a list of people, ordered so that no one appears in the list before anyone he or she is less smart than. [See Challenge Thread For Full Description]
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qp4jv/392012_challenge_21_difficult/)
+> We'd like to write a list of people, ordered so that no one appears in the list before anyone he or she is less smart than. The input will be a list of pairs of names, one pair per line, where the first element in a pair names a person smarter than the person named by the second element of the pair. That is, each input line looks like: smarter-person : less-smart-person [See Challenge Thread For Full Description]
+
+---
+
+### Challenge #22
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qr0hg/3102012_challenge_22_easy/)
+> Write a program that will compare two lists, and append any elements in the second list that doesn't exist in the first. input: ["a","b","c",1,4,], ["a", "x", 34, "4"] output: ["a", "b", "c",1,4,"x",34, "4"]
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qr0l2/3102012_challenge_22_intermediate/)
+> One of my favorite projects for beginners is to make a 2D (top down) maze style game using text to represent the map and the player.  Print out a 20x20 (or whatever size floats your boat) grid of characters where '#' characters represent impassible walls, and spaces or '.' characters represent empty passable spaces.  Draw the player in place of one of the passable characters as a + sign, or some other distinct character.  Every time the player presses an arrow key, check and see if the adjacent grid square is a passable square.  If so, update the player's position and reprint the 20x20 map with the + sign in the new position. [See Challenge Thread For Full Description]
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qr0ox/3102012_challenge_22_difficult/)
+> For todays challenge, write a maze generator.  For extra credit, write a second program which can solve the maze. [See Challenge Thread For Full Description]
+
+---
+
+### Challenge #23
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/quli5/3132012_challenge_23_easy/) (incomplete)
+> Input: a list\nOutput: Return the two halves as different lists. If the input list has an odd number, the middle item can go to any of the list. Your task is to write the function that splits a list in two halves. [See Challenge Thread For Full Description]
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qulnf/3132012_challenge_23_intermediate/) (incomplete)
+> At McDonalds’ Restaurants, the Chicken McNugget meals are available in sizes of 6 McNuggets, 9 McNuggets, or 20 McNuggets. A number is a McNugget number if it can be the sum of the number of McNuggets purchased in an order (before eating any of them). Henri Picciotto [devised](http://en.wikipedia.org/wiki/Coin_problem#McNugget_numbers) the math of McNugget numbers in the 1980s while dining with his son at McDonald’s, working the problem out on a napkin. [See Challenge Thread For Full Description]
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qum19/3132012_challenge_23_difficult/) (incomplete)
+> Sort a given set of strings based on a unique collating sequence for each position in a string. Given N collating sequences, to sort strings of length greater than N, sequence i mod N is used at character position i. [See Challenge Thread For Full Description]
 
