@@ -290,12 +290,19 @@
 
 ### Challenge #23
 
-* [easy](https://www.reddit.com/r/dailyprogrammer/comments/quli5/3132012_challenge_23_easy/) (incomplete)
-> Input: a list\nOutput: Return the two halves as different lists. If the input list has an odd number, the middle item can go to any of the list. Your task is to write the function that splits a list in two halves. [See Challenge Thread For Full Description]
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/quli5/3132012_challenge_23_easy/)
+> Input: a list Output: Return the two halves as different lists. If the input list has an odd number, the middle item can go to any of the list. Your task is to write the function that splits a list in two halves.
 
-* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qulnf/3132012_challenge_23_intermediate/) (incomplete)
-> At McDonalds’ Restaurants, the Chicken McNugget meals are available in sizes of 6 McNuggets, 9 McNuggets, or 20 McNuggets. A number is a McNugget number if it can be the sum of the number of McNuggets purchased in an order (before eating any of them). Henri Picciotto [devised](http://en.wikipedia.org/wiki/Coin_problem#McNugget_numbers) the math of McNugget numbers in the 1980s while dining with his son at McDonald’s, working the problem out on a napkin. [See Challenge Thread For Full Description]
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qulnf/3132012_challenge_23_intermediate/)
+> At McDonalds’ Restaurants, the Chicken McNugget meals are available in sizes of 6 McNuggets, 9 McNuggets, or 20 McNuggets. A number is a McNugget number if it can be the sum of the number of McNuggets purchased in an order (before eating any of them). Henri Picciotto [devised](http://en.wikipedia.org/wiki/Coin_problem#McNugget_numbers) the math of McNugget numbers in the 1980s while dining with his son at McDonald’s, working the problem out on a napkin. Your task is to determine all numbers that are not McNugget numbers.
 
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qum19/3132012_challenge_23_difficult/) (incomplete)
 > Sort a given set of strings based on a unique collating sequence for each position in a string. Given N collating sequences, to sort strings of length greater than N, sequence i mod N is used at character position i. [See Challenge Thread For Full Description]
+
+---
+
+### Challenge #24
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qx025/3142012_challenge_24_intermediate/)
+> Happy (Be-Lated) Pi Day! To celebrate, write a program that calculates a list of rational approximations of Pi. Output should look like: 3/1, 22/7, 333/106, 355/113, 52163/16604, 103993/33102, ...
 
