@@ -332,3 +332,16 @@
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qzig1/3162012_challenge_26_difficult/) (incomplete)
 > Create a piece of code that downloads an entire album from imgur. It should support multiple arguments. [See Challenge Thread For Full Description]
 
+---
+
+### Challenge #27
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/r0r3h/3172012_challenge_27_easy/)
+> Write a program that accepts a year as input and outputs the century the year belongs in  (e.g.18th century's year ranges are 1701 to 1800) and whether or not the year is a leap year. [See Challenge Thread For Full Description]
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/r0r46/3172012_challenge_27_intermediate/)
+> Happy St.Patrick's Day!  Write a program that accepts a year as input and outputs what day St. Patrick's Day falls on. Bonus: Print out the number of times St. Patrick's Day falls on a Saturday for this century. [See Challenge Thread For Full Description]
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/r0r4v/3172012_challenge_27_difficult/)
+> Write a program that will perform date/time addition. Input can be interactive using standard input or command line. 3 parameters are required: a whole number, a unit of time using the following values: year, month, week, day, hour, minute, second, and a date and time (you choose the date format). The result will be the new date and time. [See Challenge Thread For Full Description]
+
