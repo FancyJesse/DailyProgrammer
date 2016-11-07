@@ -306,3 +306,16 @@
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qx025/3142012_challenge_24_intermediate/)
 > Happy (Be-Lated) Pi Day! To celebrate, write a program that calculates a list of rational approximations of Pi. Output should look like: 3/1, 22/7, 333/106, 355/113, 52163/16604, 103993/33102, ...
 
+---
+
+### Challenge #25
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qxuug/3152012_challenge_25_easy/)
+> In an election, the person with the majority of the votes is the winner. Sometimes due to similar number of votes, there are no winners. Your challenge is to write a program that determines the winner of a vote, or shows that there are no winners due to a lack of majority.
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qxvu2/3152012_challenge_25_intermediate/)
+> Write a program to do the following:  input: a base ten (non-fractional) number at the command line  output: the binary representation of that number.
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qxv8h/3152012_challenge_25_difficult/) (incomplete)
+> Write a program that places N queens on an NxN chessboard such that no two queens are on the same row, column, or diagonal, and no queen is on either of the two major diagonals (corner to corner). Get a solution for as large a value of N as you can. [See Challenge Thread For Full Description]
+
