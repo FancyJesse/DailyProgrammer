@@ -319,3 +319,16 @@
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/qxv8h/3152012_challenge_25_difficult/)
 > Write a program that places N queens on an NxN chessboard such that no two queens are on the same row, column, or diagonal, and no queen is on either of the two major diagonals (corner to corner). Get a solution for as large a value of N as you can. [See Challenge Thread For Full Description]
 
+---
+
+### Challenge #26
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/qzil1/3162012_challenge_26_easy/)
+> You have a string "ddaaiillyypprrooggrraammeerr". We want to remove all the consecutive duplicates and put them in a separate string, which yields two separate instances of the string "dailyprogramer". [See Challenge Thread For Full Description]
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qzip3/3162012_challenge_26_intermediate/)
+> An employer wants you to store some information about his employees in an easy to read list form. He wants you to input the names, ages, and the pay of his employees. Unfortunately, he is terrible with computers, and he'll call you in every time he wants to change something he's going to call you in, unless you add an easy way to edit the information. [See Challenge Thread For Full Description]
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qzig1/3162012_challenge_26_difficult/) (incomplete)
+> Create a piece of code that downloads an entire album from imgur. It should support multiple arguments. [See Challenge Thread For Full Description]
+
