@@ -316,6 +316,6 @@
 * [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/qxvu2/3152012_challenge_25_intermediate/)
 > Write a program to do the following:  input: a base ten (non-fractional) number at the command line  output: the binary representation of that number.
 
-* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qxv8h/3152012_challenge_25_difficult/) (incomplete)
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/qxv8h/3152012_challenge_25_difficult/)
 > Write a program that places N queens on an NxN chessboard such that no two queens are on the same row, column, or diagonal, and no queen is on either of the two major diagonals (corner to corner). Get a solution for as large a value of N as you can. [See Challenge Thread For Full Description]
 
