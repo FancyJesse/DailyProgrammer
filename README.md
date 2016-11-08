@@ -345,3 +345,16 @@
 * [hard](https://www.reddit.com/r/dailyprogrammer/comments/r0r4v/3172012_challenge_27_difficult/)
 > Write a program that will perform date/time addition. Input can be interactive using standard input or command line. 3 parameters are required: a whole number, a unit of time using the following values: year, month, week, day, hour, minute, second, and a date and time (you choose the date format). The result will be the new date and time. [See Challenge Thread For Full Description]
 
+---
+
+### Challenge #28
+
+* [easy](https://www.reddit.com/r/dailyprogrammer/comments/r59kk/3202012_challenge_28_easy/)
+> The array duplicates problem is when one integer is in an array for more than once. If you are given an array with integers between 1 and 1,000,000 or in some other interval and one integer is in the array twice. How can you determine which one? [See Challenge Thread For Full Description]
+
+* [intermediate](https://www.reddit.com/r/dailyprogrammer/comments/r59e6/3202012_challenge_28_intermediate/) (incomplete)
+> A [tetrahedral number](http://en.wikipedia.org/wiki/Tetrahedral_number) is a figurate number that represents a pyramid with a triangular base and three sides. Write a program to find the base of the tetrahedron that contains an input number of balls. [See Challenge Thread For Full Description]
+
+* [hard](https://www.reddit.com/r/dailyprogrammer/comments/r59c9/3202012_challenge_28_difficult/) (incomplete)
+> The idea is simple. Use the pastebin API (wrappers should not be allowed) in the most creative way to create a cool command line tool. A simple example that's very easy to implement in most modern programming languages is a program that posts to pastebin the contents of a given file. [See Challenge Thread For Full Description]
+

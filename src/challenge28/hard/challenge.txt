@@ -1,0 +1,6 @@
+https://www.reddit.com/r/dailyprogrammer/comments/r59c9/3202012_challenge_28_difficult/
+
+The idea is simple.
+Use the pastebin API (wrappers should not be allowed) in the most creative way to create a cool command line tool.
+A simple example that's very easy to implement in most modern programming languages is a program that posts to pastebin the contents of a given file.
+[See Challenge Thread For Full Description]
